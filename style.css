@@ -11,13 +11,30 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 a{
     color: white;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
-[class*="col-2"]{
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+[class*="col-"]{
     float: left;
     padding: 10px;
 }
@@ -28,9 +45,32 @@ a{
 }
 
 .navbar{
-    background-color: #b3c5c7;
+    background-color: #cf8a78;
     padding: 1% 7%;
     text-align: center;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.navbar-menu a{
+    background-color: #cf8a78;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+
+.navbar-menu a:hover{
+    background-color: gray;
 }
 
 .navbar::after{
@@ -38,3 +78,4 @@ a{
     display: table;
     content: '';
 }
+
