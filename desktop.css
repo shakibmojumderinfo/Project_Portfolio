@@ -11,3 +11,23 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+
