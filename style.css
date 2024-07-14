@@ -45,7 +45,7 @@ p{
 }
 
 .navbar{
-    background-color: #cf8a78;
+    background-color: #5a504e;
     padding: 1% 7%;
     text-align: center;
 }
@@ -78,4 +78,95 @@ p{
     display: table;
     content: '';
 }
+/* navbar end */
 
+
+/* profile design st */
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+    transform: rotate(360deg);  /* icon tranform*/
+}
+
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+    transform: rotate(360deg);  /* icon tranform*/
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+আমি শুনেছি সেদিন তুমি সাগরের ঢেউয়ে চেপে
+নীল জল দিগন্ত ছুঁয়ে এসেছো
+আমি শুনেছি সেদিন তুমি নোনাবালি তীর ধরে
+বহুদূর বহুদূর হেঁটে এসেছো
+আমি কখনও যাইনি জলে, কখনও ভাসিনি নীলে
+কখনও রাখিনি চোখ ডানা মেলা গাংচিলে
+আবার যেদিন তুমি সমুদ্র স্নানে যাবে
+আমাকেও সাথে নিও, নেবে তো আমায়
+বলো নেবে তো আমায় */
