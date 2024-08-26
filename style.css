@@ -129,6 +129,53 @@ p{
     clear: both;
 }
 
+/* profile design ends here */
+
+
+/* about me section starts here */
+
+.about-me{
+    background-color: #052D2F;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+.about-me a{
+    font-size: 1.2rem;
+}
+
+.cv-button{
+    background-color: #052D2F;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* about me section ends here */
 
 
 
